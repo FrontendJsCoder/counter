@@ -53,3 +53,8 @@ button.dec {
     background-color: #00ff88;
     color: #ffffff;
 }
+button.reset {
+    background-color: transparent;
+    border: 4px solid #00ff88;
+    color: #00ff88;
+}
