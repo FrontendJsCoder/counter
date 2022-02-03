@@ -39,3 +39,12 @@ h1 {
     justify-content: space-around;
     margin-top: 80px;
 }
+.btns button {
+    width: 130px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
