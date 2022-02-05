@@ -64,6 +64,7 @@ button.reset:hover {
     transform: scale(1.1);
     transition: all .5s;
 }
+/*Menu*/
 #toggle-btn,
 .menu a {
     position: absolute;
@@ -71,6 +72,7 @@ button.reset:hover {
     place-items: center;
     border-radius: 50%;
 }
+/*Menu font awesome icons*/
 .menu a {
     background-color: #00ff88;
     height: 30px;
@@ -81,6 +83,7 @@ button.reset:hover {
     top: 30px;
     left: 30px;
 }
+/*Button*/
 #toggle-btn {
     background-color: #191c37;
     color: #00ff88;
@@ -92,5 +95,4 @@ button.reset:hover {
     border-radius: 100px;
     top: 15px;
     left: 15px;
-
 }
