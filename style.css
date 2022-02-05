@@ -64,3 +64,33 @@ button.reset:hover {
     transform: scale(1.1);
     transition: all .5s;
 }
+#toggle-btn,
+.menu a {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+.menu a {
+    background-color: #00ff88;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    top: 30px;
+    left: 30px;
+}
+#toggle-btn {
+    background-color: #191c37;
+    color: #00ff88;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 25px;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    top: 15px;
+    left: 15px;
+
+}
