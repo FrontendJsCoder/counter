@@ -80,19 +80,26 @@ button.reset:hover {
     font-size: 15px;
     color: #ffffff;
     text-decoration: none;
+    transition: all .5s;
     top: 30px;
     left: 30px;
 }
 /*Button*/
 #toggle-btn {
     background-color: #191c37;
-    color: #00ff88;
+    color: #ffffff;
     height: 50px;
     width: 50px;
     border: none;
     font-size: 25px;
     box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
     border-radius: 100px;
+    cursor: pointer;
     top: 15px;
     left: 15px;
+}
+#toggle-btn:hover {
+    color: #00ff88;
+    transform: scale(1.1);
+    transition: all .5s; 
 }
